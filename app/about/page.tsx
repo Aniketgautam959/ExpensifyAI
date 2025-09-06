@@ -14,7 +14,7 @@ const AboutPage = () => {
           </div>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
             About{' '}
-            <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-r from-green-500 via-green-500 to-teal-500 bg-clip-text text-transparent'>
               ExpensifyAI
             </span>
           </h1>
@@ -25,14 +25,14 @@ const AboutPage = () => {
           <div className='mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0'>
             <Link
               href='/sign-up'
-              className='group relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
+              className='group relative overflow-hidden bg-gradient-to-r from-green-500 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
             >
               <span className='relative z-10'>Start Your Journey</span>
               <div className='absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
             </Link>
             <Link
               href='/contact'
-              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm'
+              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-green-500 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm'
             >
               Learn More
             </Link>
@@ -50,7 +50,7 @@ const AboutPage = () => {
           </div>
           <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
             Transforming Financial Management with{' '}
-            <span className='text-emerald-600 dark:text-emerald-400'>AI</span>
+            <span className='text-green-500 dark:text-emerald-400'>AI</span>
           </h2>
           <p className='text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto'>
             At ExpensifyAI, we leverage cutting-edge artificial
@@ -61,7 +61,7 @@ const AboutPage = () => {
           </p>
           <div className='mt-10 grid grid-cols-1 md:grid-cols-3 gap-6'>
             <div className='bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 p-6 rounded-2xl border border-emerald-100 dark:border-emerald-800/50'>
-              <div className='text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2'>
+              <div className='text-3xl font-bold text-green-500 dark:text-emerald-400 mb-2'>
                 10K+
               </div>
               <div className='text-gray-600 dark:text-gray-400 font-medium'>
@@ -98,7 +98,7 @@ const AboutPage = () => {
             </div>
             <h2 className='text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100'>
               Why Choose{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
+              <span className='text-green-500 dark:text-emerald-400'>
                 ExpensifyAI?
               </span>
             </h2>
@@ -176,7 +176,7 @@ const AboutPage = () => {
             </div>
             <h2 className='text-4xl md:text-5xl font-bold mb-8 text-gray-900 dark:text-gray-100'>
               Built for the{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
+              <span className='text-green-500 dark:text-emerald-400'>
                 Future
               </span>
             </h2>
@@ -185,7 +185,7 @@ const AboutPage = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
             <div className='space-y-6'>
               <p className='text-lg text-gray-600 dark:text-gray-400 leading-relaxed'>
-                ExpensifyAI was born from the vision of creating truly
+                ExpensifyAI was founded in 2025 with the vision of creating truly
                 intelligent financial management tools. Our team of financial
                 experts, data scientists, and technologists came together to
                 solve a critical problem: making personal finance management
@@ -215,7 +215,7 @@ const AboutPage = () => {
                 <div className='flex items-center gap-4'>
                   <div className='w-3 h-3 bg-emerald-500 dark:bg-emerald-400 rounded-full'></div>
                   <div className='text-gray-900 dark:text-gray-100 font-medium'>
-                    Founded in 2024
+                    Founded in 2025
                   </div>
                 </div>
                 <div className='flex items-center gap-4'>
@@ -255,7 +255,7 @@ const AboutPage = () => {
 
           <h2 className='text-4xl md:text-6xl font-bold mb-6 leading-tight text-gray-900 dark:text-gray-100'>
             Take Control of Your{' '}
-            <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-r from-green-500 via-green-500 to-teal-500 bg-clip-text text-transparent'>
               Financial Future
             </span>
           </h2>
@@ -269,7 +269,7 @@ const AboutPage = () => {
           <div className='flex flex-col sm:flex-row gap-6 justify-center items-center'>
             <Link
               href='/sign-up'
-              className='group relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-8 py-4 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
+              className='group relative overflow-hidden bg-gradient-to-r from-green-500 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-8 py-4 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
             >
               <span className='relative z-10 flex items-center gap-2'>
                 Get Started Free
@@ -280,7 +280,7 @@ const AboutPage = () => {
 
             <Link
               href='/contact'
-              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-8 py-4 rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center gap-2'
+              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-green-500 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-8 py-4 rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center gap-2'
             >
               Contact Us
               <span className='text-lg group-hover:translate-x-0.5 transition-transform duration-200'>
@@ -291,7 +291,7 @@ const AboutPage = () => {
 
           <div className='mt-12 grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='text-center'>
-              <div className='text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2'>
+              <div className='text-3xl font-bold text-green-500 dark:text-emerald-400 mb-2'>
                 Free
               </div>
               <div className='text-gray-600 dark:text-gray-400'>

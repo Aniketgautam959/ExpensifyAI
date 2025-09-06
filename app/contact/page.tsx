@@ -13,7 +13,7 @@ const ContactPage = () => {
           </div>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
             Contact{' '}
-            <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-r from-green-500 via-green-500 to-teal-500 bg-clip-text text-transparent'>
               ExpensifyAI
             </span>
           </h1>
@@ -24,7 +24,7 @@ const ContactPage = () => {
           <div className='mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0'>
             <a
               href='mailto:support@expensetracker-ai.com'
-              className='group relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
+              className='group relative overflow-hidden bg-gradient-to-r from-green-500 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
             >
               <span className='relative z-10 flex items-center justify-center gap-2'>
                 Send us an Email
@@ -34,7 +34,7 @@ const ContactPage = () => {
             </a>
             <a
               href='tel:+11234567890'
-              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center justify-center gap-2'
+              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-green-500 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center justify-center gap-2'
             >
               Call Us
               <span className='text-lg'>📞</span>
@@ -54,7 +54,7 @@ const ContactPage = () => {
             </div>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
               Multiple Ways to{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
+              <span className='text-green-500 dark:text-emerald-400'>
                 Connect
               </span>
             </h2>
@@ -80,7 +80,7 @@ const ContactPage = () => {
                 </p>
                 <a
                   href='mailto:support@expensetracker-ai.com'
-                  className='inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base break-all sm:break-normal'
+                  className='inline-flex items-center gap-2 text-green-500 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base break-all sm:break-normal'
                 >
                   <span className='hidden sm:inline'>
                     support@expensetracker-ai.com
@@ -106,7 +106,7 @@ const ContactPage = () => {
                 </p>
                 <a
                   href='tel:+11234567890'
-                  className='inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base'
+                  className='inline-flex items-center gap-2 text-green-500 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base'
                 >
                   +1 (123) 456-7890
                   <span className='text-sm'>→</span>
@@ -127,7 +127,7 @@ const ContactPage = () => {
                   Visit our headquarters for in-person consultations and
                   partnership discussions.
                 </p>
-                <div className='text-emerald-600 dark:text-emerald-400 font-medium text-sm sm:text-base'>
+                <div className='text-green-500 dark:text-emerald-400 font-medium text-sm sm:text-base'>
                   123 AI Innovation St
                   <br />
                   Tech City, USA
@@ -148,7 +148,7 @@ const ContactPage = () => {
             </div>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
               We&#39;re Here to{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
+              <span className='text-green-500 dark:text-emerald-400'>
                 Help
               </span>
             </h2>

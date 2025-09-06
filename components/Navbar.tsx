@@ -28,9 +28,12 @@ export default function Navbar() {
               onClick={closeMobileMenu}
             >
               <div className='w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:rotate-3'>
-                <span className='text-white text-xs sm:text-sm md:text-lg font-bold'>
-                  💰
-                </span>
+                <svg className='w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6' viewBox='0 0 24 24' fill='none'>
+                  <rect x='4' y='6' width='16' height='12' rx='2' fill='white' stroke='black' strokeWidth='2'/>
+                  <rect x='6' y='4' width='8' height='6' rx='1' fill='white' stroke='black' strokeWidth='1.5'/>
+                  <path d='M18 8c0 1.5-1 2.5-2.5 2.5S13 9.5 13 8' stroke='black' strokeWidth='2' fill='none'/>
+                  <rect x='16' y='10' width='4' height='2' rx='1' fill='#e0f2fe'/>
+                </svg>
               </div>
               <span className='text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
                 <span className='hidden sm:inline'>ExpensifyAI</span>
@@ -46,7 +49,7 @@ export default function Navbar() {
               className='relative text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 px-3 lg:px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-emerald-50/50 dark:hover:bg-emerald-900/20 group'
             >
               <span className='relative z-10'>Home</span>
-              <div className='absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-green-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
+              <div className='absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-emerald-600/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
             </Link>
 
             <Link
@@ -54,7 +57,7 @@ export default function Navbar() {
               className='relative text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 px-3 lg:px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-emerald-50/50 dark:hover:bg-emerald-900/20 group'
             >
               <span className='relative z-10'>About</span>
-              <div className='absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-green-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
+              <div className='absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-emerald-600/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
             </Link>
 
             <Link
@@ -62,7 +65,7 @@ export default function Navbar() {
               className='relative text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 px-3 lg:px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-emerald-50/50 dark:hover:bg-emerald-900/20 group'
             >
               <span className='relative z-10'>Contact</span>
-              <div className='absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-green-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
+              <div className='absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-emerald-600/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
             </Link>
           </div>
 
@@ -77,7 +80,7 @@ export default function Navbar() {
             <div className='hidden sm:block'>
               <SignedOut>
                 <SignInButton>
-                  <button className='relative overflow-hidden bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95'>
+                  <button className='relative overflow-hidden bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95'>
                     <div className='relative z-10 flex items-center gap-1 sm:gap-2'>
                       <span>Sign In</span>
                       <svg
@@ -105,7 +108,7 @@ export default function Navbar() {
                     appearance={{
                       elements: {
                         avatarBox:
-                          'w-6 h-6 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-200',
+                          'w-6 h-6 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-200 rounded-full',
                         userButtonBox: 'flex items-center justify-center',
                       },
                     }}
@@ -188,7 +191,7 @@ export default function Navbar() {
               <SignedOut>
                 <SignInButton>
                   <button
-                    className='w-full bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-4 py-3 rounded-xl text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 active:scale-95'
+                    className='w-full bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-4 py-3 rounded-xl text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 active:scale-95'
                     onClick={closeMobileMenu}
                   >
                     <span>Sign In</span>
@@ -215,7 +218,7 @@ export default function Navbar() {
                     appearance={{
                       elements: {
                         avatarBox:
-                          'w-8 h-8 hover:scale-110 transition-transform duration-200',
+                          'w-8 h-8 hover:scale-110 transition-transform duration-200 rounded-full',
                         userButtonBox: 'flex items-center justify-center',
                       },
                     }}

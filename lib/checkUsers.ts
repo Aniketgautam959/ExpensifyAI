@@ -10,19 +10,20 @@ export const checkUsers = async () => {
   const loggedInUser = await db.user.findUnique({
     where: { clerkUserId: user.id },
   });
+  
   if (loggedInUser) {
-   
-  return loggedInUser;
-}
+    return loggedInUser;
+  }
 
-const newUser = await db.user.create({
+  // Create new user if they don't exist
+  const newUser = await db.user.create({
     data: {
-        clerkUserId: user.id,
-      name: '${user.firstName} ${user.lastName}',
+      clerkUserId: user.id,
+      name: `${user.firstName || ''} ${user.lastName || ''}`.trim() || 'User',
       imageUrl: user.imageUrl,
-      email: user.emailAddresses[0]?.emailAddress,
+      email: user.emailAddresses[0]?.emailAddress || '',
     },
-});
+  });
 
-return newUser;
+  return newUser;
 };

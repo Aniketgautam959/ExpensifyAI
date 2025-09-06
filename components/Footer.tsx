@@ -12,14 +12,19 @@ const Footer = () => {
           <div className='text-center md:text-left'>
             <div className='inline-flex items-center gap-2 mb-4'>
               <div className='w-8 h-8 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg'>
-                <span className='text-white text-lg'>💰</span>
+                <svg className='w-5 h-5' viewBox='0 0 24 24' fill='none'>
+                  <rect x='4' y='6' width='16' height='12' rx='2' fill='white' stroke='black' strokeWidth='2'/>
+                  <rect x='6' y='4' width='8' height='6' rx='1' fill='white' stroke='black' strokeWidth='1.5'/>
+                  <path d='M18 8c0 1.5-1 2.5-2.5 2.5S13 9.5 13 8' stroke='black' strokeWidth='2' fill='none'/>
+                  <rect x='16' y='10' width='4' height='2' rx='1' fill='#e0f2fe'/>
+                </svg>
               </div>
-              <h2 className='text-xl font-bold bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
+              <h2 className='text-xl font-bold bg-gradient-to-r from-green-500 via-green-500 to-teal-500 bg-clip-text text-transparent'>
                 ExpensifyAI
               </h2>
             </div>
             <p className='text-gray-600 dark:text-gray-400 leading-relaxed max-w-sm'>
-              Intelligent financial management powered by AI. Track your
+              Founded in 2025, ExpensifyAI provides intelligent financial management powered by AI. Track your
               expenses, manage your budget, and gain insights into your spending
               patterns.
             </p>
@@ -33,21 +38,21 @@ const Footer = () => {
             <div className='flex flex-col space-y-3'>
               <Link
                 href='/'
-                className='group inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 text-sm font-medium transition-colors duration-200'
+                className='group inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-emerald-400 text-sm font-medium transition-colors duration-200'
               >
                 <span className='w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200'></span>
                 Home
               </Link>
               <Link
                 href='/about'
-                className='group inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 text-sm font-medium transition-colors duration-200'
+                className='group inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-emerald-400 text-sm font-medium transition-colors duration-200'
               >
                 <span className='w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200'></span>
                 About
               </Link>
               <Link
                 href='/contact'
-                className='group inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 text-sm font-medium transition-colors duration-200'
+                className='group inline-flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-emerald-400 text-sm font-medium transition-colors duration-200'
               >
                 <span className='w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200'></span>
                 Contact
