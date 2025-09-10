@@ -87,7 +87,7 @@ export default function Navbar() {
             {/* Authentication - Desktop */}
             <div className='hidden sm:block'>
               <SignedOut>
-                <SignUpButton mode="modal" redirectUrl="/">
+                <SignUpButton mode="modal">
                   <button className='relative overflow-hidden bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95'>
                     <div className='relative z-10 flex items-center gap-1 sm:gap-2'>
                       <span>Sign Up</span>
@@ -218,7 +218,7 @@ export default function Navbar() {
             {/* Mobile Authentication */}
             <div className='pt-3 border-t border-gray-200/50 dark:border-gray-600/50'>
               <SignedOut>
-                <SignUpButton mode="modal" redirectUrl="/">
+                <SignUpButton mode="modal">
                   <button
                     className='w-full bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-4 py-3 rounded-xl text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 active:scale-95'
                     onClick={closeMobileMenu}
