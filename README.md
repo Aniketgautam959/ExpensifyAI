@@ -37,6 +37,7 @@ cd ExpensifyAI
 npm install
 ```
 
+---
 
 🔧 Environment Variables
 
@@ -47,6 +48,8 @@ CLERK_SECRET_KEY=your_clerk_secret
 OPENROUTE_API_KEY=your_openroute_api_key
 OPENAI_API_KEY=your_openai_key
 ```
+
+---
 
 ▶️ Run Locally
 ```bash
@@ -59,6 +62,8 @@ Visit 👉 http://localhost:3000
 This project is live on Vercel:
 👉 ExpensifyAI Demo
 
+---
+
 🛣️ Roadmap
 
 📸 Add OCR for receipt scanning
@@ -68,6 +73,8 @@ This project is live on Vercel:
 💱 Multi-currency support
 
 🔔 Budget alerts & notifications
+
+---
 
 🤝 Contributing
 
