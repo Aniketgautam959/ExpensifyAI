@@ -1,8 +1,8 @@
-import getRecords from '@/app/actions/getRecord';
+import getRecord from '@/app/actions/getRecord';
 import BarChart from './BarChart'; // Ensure BarChart.tsx or BarChart.jsx exists in the same directory
 
 const RecordChart = async () => {
-  const { records, error } = await getRecords();
+  const { records, error } = await getRecord();
 
   if (error) {
     return (
