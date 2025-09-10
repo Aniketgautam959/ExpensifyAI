@@ -3,7 +3,7 @@ import { db } from '@/lib/db';
 import { checkUsers } from '@/lib/checkUsers';
 import { Record } from '@/types/Record';
 
-async function getRecords(): Promise<{
+async function getRecord(): Promise<{
   records?: Record[];
   error?: string;
 }> {
@@ -11,14 +11,14 @@ async function getRecords(): Promise<{
     // Get the internal database user (same pattern as addExpenseRecord)
     const user = await checkUsers();
     
-    console.log('getRecords - user:', user);
+    console.log('getRecord - user:', user);
 
     if (!user) {
-      console.log('getRecords - No user found');
+      console.log('getRecord - No user found');
       return { error: 'User not found' };
     }
 
-    console.log('getRecords - Fetching records for userId:', user.id);
+    console.log('getRecord - Fetching records for userId:', user.id);
     const records = await db.record.findMany({
       where: { userId: user.id },
       orderBy: {
@@ -27,7 +27,7 @@ async function getRecords(): Promise<{
       take: 10, // Limit the request to 10 records
     });
 
-    console.log('getRecords - Found records:', records.length, records);
+    console.log('getRecord - Found records:', records.length, records);
     return { records };
   } catch (error) {
     console.error('Error fetching records:', error); // Log the error
@@ -35,4 +35,4 @@ async function getRecords(): Promise<{
   }
 }
 
-export default getRecords;
+export default getRecord;
