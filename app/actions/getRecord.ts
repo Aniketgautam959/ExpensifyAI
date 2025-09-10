@@ -14,8 +14,9 @@ async function getRecord(): Promise<{
     console.log('getRecord - user:', user);
 
     if (!user) {
-      console.log('getRecord - No user found');
-      return { error: 'User not found' };
+      console.log('getRecord - No user found, returning empty records');
+      // Instead of returning an error, return empty records for new users
+      return { records: [] };
     }
 
     console.log('getRecord - Fetching records for userId:', user.id);
@@ -31,7 +32,8 @@ async function getRecord(): Promise<{
     return { records };
   } catch (error) {
     console.error('Error fetching records:', error); // Log the error
-    return { error: 'Database error' };
+    // For new users or database issues, return empty records instead of error
+    return { records: [] };
   }
 }
 
