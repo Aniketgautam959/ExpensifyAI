@@ -101,17 +101,15 @@ export default function Navbar() {
               </SignedOut>
 
               <SignedIn>
-                <div className='p-0.5 sm:p-1 rounded-md bg-gray-900 border border-gray-800'>
-                  <UserButton
-                    appearance={{
-                      elements: {
-                        avatarBox:
-                          'w-6 h-6 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-200 rounded-full',
-                        userButtonBox: 'flex items-center justify-center',
-                      },
-                    }}
-                  />
-                </div>
+                <UserButton
+                  appearance={{
+                    elements: {
+                      avatarBox:
+                        'w-6 h-6 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-200 rounded-full',
+                      userButtonBox: 'flex items-center justify-center',
+                    },
+                  }}
+                />
               </SignedIn>
             </div>
 
