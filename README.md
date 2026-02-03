@@ -1,22 +1,22 @@
-# 💸 ExpensifyAI
+# ExpensifyAI
 
 An **AI-powered Expense Tracker** that helps you **track, analyze, and optimize** your spending with ease.  
-Built with ⚡ **Next.js**, 🎨 **Tailwind CSS**, 🔐 **Clerk Authentication**, and 🌍 **OpenRoute API**.
+Built with  **Next.js**, **Tailwind CSS**, **Clerk Authentication**, and **OpenRoute API**.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 **Secure Login/Signup** with Clerk  
-- 🤖 **AI Assistance** for auto-categorizing expenses  
-- 📊 **Beautiful Dashboards** to visualize your spending  
-- 🌍 **Location-based Tracking** using OpenRoute  
-- 📱 **Fully Responsive UI** with Tailwind  
-- 🚀 **Fast & Reliable** deployment on Vercel  
+- **Secure Login/Signup** with Clerk  
+- **AI Assistance** for auto-categorizing expenses  
+- **Beautiful Dashboards** to visualize your spending  
+- **Location-based Tracking** using OpenRoute  
+- **Fully Responsive UI** with Tailwind  
+- **Fast & Reliable** deployment on Vercel  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js  
 - **Styling**: Tailwind CSS  
@@ -57,35 +57,19 @@ npm run dev
 ```
 Visit 👉 http://localhost:3000
 
-🌍 Deployment
-
-This project is live on Vercel:
-👉 ExpensifyAI Demo
 
 ---
 
-🛣️ Roadmap
-
-📸 Add OCR for receipt scanning
-
-📑 Export reports (CSV / PDF)
-
-💱 Multi-currency support
-
-🔔 Budget alerts & notifications
-
----
-
-🤝 Contributing
+Contributing
 
 Contributions are always welcome!
 
-🍴 Fork the repo
+ Fork the repo
 
-🌱 Create a branch → git checkout -b feature/your-feature
+Create a branch → git checkout -b feature/your-feature
 
-💾 Commit → git commit -m "Add your feature"
+Commit → git commit -m "Add your feature"
 
-🚀 Push → git push origin feature/your-feature
+Push → git push origin feature/your-feature
 
-🔁 Open a Pull Request
+Open a Pull Request
